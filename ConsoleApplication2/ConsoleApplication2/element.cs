@@ -16,7 +16,16 @@ namespace ConsoleApplication2
             set { data = value; }
         }
 
+        element<T> next
 
+
+            
        
-    }
+
+
+internal element<T> Next
+{
+  get { return next; }
+  set { next = value; }
+}}
 }
